@@ -1,0 +1,20 @@
+.bell-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.bell-icon img {
+  width: 100%;
+  height: auto;
+  animation: bell-shake 1s infinite;
+}
+
+@keyframes bell-shake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(30deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-30deg); }
+  100% { transform: rotate(0deg); }
+}
